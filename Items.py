@@ -5,11 +5,11 @@ class Items:
         self.db=database
         self.cursor=database.get_cursor()
         self.cursor.execute("""
-            CREATE TABLE IF NOT EXISTS Items(
+                            CREATE TABLE IF NOT EXISTS Items(
                             id INTEGER PRIMARY KEY,
                             item TEXT UNIQUE,
                             quantity INTEGER NOT NULL)
-            """)
+                            """)
         
     def add_item(self, item:str, quantity=0):
         try:
