@@ -1,6 +1,11 @@
 {
     "files": [
         "mainwindow.py",
-        "form.ui"
+        "form.ui",
+        "Database.py",
+        "Items.py",
+        "User.py",
+        "Kiosks.py",
+        "KioskWidget.py"
     ]
 }
